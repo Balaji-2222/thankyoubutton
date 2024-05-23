@@ -1,0 +1,48 @@
+.bgContainer {
+  background-color: #ffc0bb;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+.insideContainer {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 220px;
+  width: 45vw;
+}
+.buttonClass {
+  display: flex;
+  flex-direction: row;
+}
+.image {
+  height: 70px;
+  width: 90px;
+}
+.buttonClassSmall {
+  display: flex;
+  flex-direction: column;
+  margin-right: 80px;
+}
+.button {
+  border-width: 0px;
+  background-color: transparent;
+}
+.buttonHeading {
+  margin-left: 37px;
+  margin-top: 3px;
+  font-size: 13px;
+  font-family: 'Roboto';
+}
+.mainHeading {
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: bold;
+  max-width: 330px;
+}
